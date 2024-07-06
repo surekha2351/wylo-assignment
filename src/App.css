@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* In index.css or App.css */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.create-post, .posts-display {
+  margin: 20px;
+}
+
+.create-post form label, .create-post form input, .create-post form textarea {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.create-post form button, .posts-display button {
+  padding: 5px 10px;
+}
+/* In index.css or App.css */
+.post-item button {
+  margin-right: 10px;
+}
+
+.edit-post, .create-post {
+  margin: 20px;
+}
+
+.edit-post form label, .edit-post form input, .edit-post form textarea,
+.create-post form label, .create-post form input, .create-post form textarea {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.edit-post form button, .create-post form button {
+  padding: 5px 10px;
+}
